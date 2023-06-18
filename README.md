@@ -24,7 +24,7 @@ Universal Server is a versatile server application that allows you to handle inc
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/YourUsername/Universal-Server.git
+   git clone https://github.com/RebeccaSkittles/Universal-Server.git
 
 2. Open within Visual Studio
 3. than comile and build the server
