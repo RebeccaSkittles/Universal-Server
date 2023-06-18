@@ -4,7 +4,7 @@ Imports System.IO
 
 Module Program
     Dim databaseFilePath As String = ""
-    Dim currentBuildVersion As String = "01A23"
+    Dim currentBuildVersion As String = "02A23"
 
     Sub Main()
         Dim port As Integer = 8080
@@ -53,7 +53,7 @@ Module Program
 
         Catch ex As Exception
             Console.ForegroundColor = ConsoleColor.Red
-            Console.WriteLine("[ERROR]: Server failed to start on IP: {0} On Port: {1}", ipAddress, port)
+            Console.WriteLine("[ERROR]: Server failed to start on IP: {0} On Port: {1}. Reason: {2}", ipAddress, port, ex.Message)
             Console.ForegroundColor = ConsoleColor.White
         End Try
 
@@ -116,15 +116,13 @@ Module Program
                 Console.ForegroundColor = ConsoleColor.White
             Else
                 ' Server is already on the latest version
-                Console.ForegroundColor = ConsoleColor.Green
                 Console.WriteLine("[INFO]: The server is running the latest version ({0}).", currentBuildVersion)
-                Console.ForegroundColor = ConsoleColor.White
             End If
 
         Catch ex As Exception
             ' Error retrieving latest version
             Console.ForegroundColor = ConsoleColor.Red
-            Console.WriteLine("[ERROR]: An error occurred while checking for updates. Please visit {0} for the latest version.", githubUrl)
+            Console.WriteLine("[ERROR]: An error occurred while checking for updates. Please visit {0} for the latest version. Reason: {1}", githubUrl, ex.Message)
             Console.ForegroundColor = ConsoleColor.White
         End Try
     End Sub
