@@ -1,0 +1,17 @@
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\Universal Server.exe
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\Universal Server.deps.json
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\Universal Server.runtimeconfig.json
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\Universal Server.dll
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\Universal Server.pdb
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.vbproj.AssemblyReference.cache
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.GeneratedMSBuildEditorConfig.editorconfig
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.AssemblyInfoInputs.cache
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.AssemblyInfo.vb
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.vbproj.CoreCompileInputs.cache
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.dll
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\refint\Universal Server.dll
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.pdb
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.genruntimeconfig.cache
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\ref\Universal Server.dll
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Debug\net6.0\HtmlAgilityPack.dll
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\obj\Debug\net6.0\Universal Server.vbproj.CopyComplete

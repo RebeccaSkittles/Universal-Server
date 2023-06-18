@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Universal_Server</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+    <ApplicationIcon>database.ico</ApplicationIcon>
+    <Version>1.0.0.0</Version>
+    <Authors>Rebecca Skittles</Authors>
+    <Company>XR DevelopmentRebecca Skittles</Company>
+    <PackageId>01A23</PackageId>
+    <Description>Universal Server is a versatile server application designed to provide a robust foundation for building and deploying server-based solutions. With its customizable features and intuitive interface, Universal Server allows you to create various types of network applications with ease. Whether you need to set up a file server, chat server, and more!</Description>
+    <Copyright>(C)2023 XR Development</Copyright>
+    <PackageLicenseExpression />
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/RebeccaSkittles/Universal-Server</PackageProjectUrl>
+    <PackageIcon>database.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/RebeccaSkittles/Universal-Server</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>server universal vbnet server-side</PackageTags>
+    <PackageReleaseNotes>01A23 
+Welcome to Universal Server!</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Rebecca Skittles\Pictures\Batch Chat\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="W:\School 2022\database.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

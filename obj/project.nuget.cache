@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WSb+EhPh6aTc6jV9ndCg5U6DEC4ioWL/LHgWOG1XyY62XsHQRvteLMnfibWOW0nT8vh6Mj5snIy3Zn8tX9O+oQ==",
+  "success": true,
+  "projectFilePath": "B:\\VS_Projects\\2DPlay\\Universal Server\\Universal Server\\Universal Server.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rebecca Skittles\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

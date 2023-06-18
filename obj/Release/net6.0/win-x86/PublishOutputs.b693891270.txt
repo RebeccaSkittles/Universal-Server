@@ -1,0 +1,2 @@
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Release\net6.0\publish\win-x86\Universal Server.pdb
+B:\VS_Projects\2DPlay\Universal Server\Universal Server\bin\Release\net6.0\publish\win-x86\Universal Server.exe
