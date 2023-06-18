@@ -126,6 +126,7 @@ Please ensure your code follows the project's coding conventions and includes ap
 
 - [VB.NET](https://www.visualstudio.com/)
 - [Python](https://www.python.org/)
+- [Javascript](https://www.javascript.com/) - This Has Not Been Tested Yet.
 
 If you have successfully used Universal Server in another programming language, we would love to hear from you! Please [submit an issue](https://github.com/your/repository/issues) and let us know about your experience.
 
