@@ -47,7 +47,7 @@ Universal Server is a versatile server application that allows you to handle inc
 
 ### Configuration
 
-#### !NOTE! This feature is still in development is curently univalibe.
+#### !NOTE! This feature is still in development and is curently univalibe.
 
 To configure Universal Server, modify the settings in the `config.ini` file located in the project's root directory. The configuration file includes options for the server port number, database connection details, and other customizable parameters.
 
