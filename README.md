@@ -71,6 +71,38 @@ The `database.xml` file will now serve as the database for the Universal Server,
 
 Note: If you already have an existing database file or want to use a different database format, make sure to update the `CheckDatabaseConnection()` function in the `Program.vb` file to handle the connection accordingly.
 
+## Troubleshooting: Ensuring Port 8080 is Working
+
+If you're having trouble accessing your application on port 8080, it's important to verify that the port is open and accessible. Follow these steps to troubleshoot the issue on a Windows system:
+
+1. Check Listening Ports: Open a command prompt and execute the following command to view the list of listening ports on your system:
+
+```netstat -a -n -o```
+
+Look for an entry with "0.0.0.0:8080" under the "Local Address" column. If you don't see it, proceed to the next step.
+
+2. Add Inbound Rule: Make sure the port is allowed in the Windows Firewall. Run the following command in an elevated command prompt to add an inbound rule for port 8080:
+
+
+Look for an entry with "0.0.0.0:8080" under the "Local Address" column. If you don't see it, proceed to the next step.
+
+2. Add Inbound Rule: Make sure the port is allowed in the Windows Firewall. Run the following command in an elevated command prompt to add an inbound rule for port 8080:
+
+```netsh advfirewall firewall add rule name="Open Port 8080" dir=in action=allow protocol=TCP localport=8080```
+
+If the command executes successfully, try accessing your application again on port 8080. If it still doesn't work, continue to the next step.
+
+3. Disable Other Firewalls: Verify that there are no other firewall or security software blocking port 8080. Some antivirus or security software may have their own firewalls. Temporarily disable any other firewall or security software and test the application again. If it works after disabling the additional firewalls, you may need to configure them to allow port 8080.
+
+4. Check for Port Conflicts: Ensure that no other application or service is already using port 8080. Use the following command to check for open ports and their associated processes:
+
+```netstat -a -n -o```
+
+Look for any entry with "0.0.0.0:8080" under the "Local Address" column. Note the corresponding PID (process ID) in the "PID" column. Use Task Manager (or other process management tools) to identify the process associated with that PID and decide how to handle it.
+
+5. Restart Your Computer: Sometimes, changes made to the firewall settings or network configuration may require a system restart to take effect. Try restarting your computer and test the application again on port 8080.
+
+If you've followed these troubleshooting steps and are still unable to get port 8080 to work, it's recommended to seek assistance from a technical expert who can help diagnose the issue further for your specific system configuration.
 
 ### Contributing
 
