@@ -135,6 +135,7 @@ If you encounter any issues, have questions, or need assistance with Universal S
 
 - Email: support@xrdevelopment.net
 - [Submit an issue](https://github.com/your/repository/issues)
+- [Join Our Discord!](https://discord.gg/Edam9S2XAm)
 
 Our support team is available to help you troubleshoot problems, provide guidance, and answer any questions you may have. Please provide detailed information about the issue you are experiencing to help us assist you more effectively.
 
